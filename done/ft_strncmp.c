@@ -6,7 +6,7 @@
 /*   By: mmaidel- <mmaidel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/02 05:16:49 by mmaidel-          #+#    #+#             */
-/*   Updated: 2022/06/26 06:22:19 by mmaidel-         ###   ########.fr       */
+/*   Updated: 2022/06/28 01:25:49 by mmaidel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 // if return > 0 then indicates that str2 < str1.
 // if return = 0 then indicates that s1 == str2. 
 
-int	ft_strncmp(char *s1, char *s2, size_t n)
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	size_t	counter;
 

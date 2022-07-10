@@ -30,8 +30,8 @@ $(NAME): ${OBJECTS}
 	${ARCHIVE} ${NAME} ${OBJECTS}
 	${NAME}
 
-$(TESTE): ${OBJECTS} teste.c
-	${CC} -o ${TESTE} teste.c ${OBJECTS}
+# $(TESTE): ${OBJECTS} teste.c
+#	${CC} -o ${TESTE} teste.c ${OBJECTS}
 
 # Default all command to compile
 all: ${NAME}
